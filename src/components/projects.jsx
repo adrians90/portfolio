@@ -4,14 +4,14 @@ export default function Projects() {
   return (
     <section className="mx-3 mt-10">
       <h2 className="text-lg uppercase mb-10">Projects</h2>
-      <ul>
+      <ul className="flex flex-col gap-7">
         <li>
-          <h2>Pet Daycare Management Application</h2>
+          <h2 className="mb-3">Pet Daycare Management Application</h2>
           <p className="text-slate-400">
             Pawsome Pro is a modern, full-stack web application for managing pet
-            care, built with Next.js and Prisma for the backend.Implemented
-            secure payment processing with Stripe and user authentication with
-            Next Auth and bcrypt.
+            care, built with Next.js and Prisma for the backend. <br />{" "}
+            Implemented secure payment processing with Stripe and user
+            authentication with Next Auth and bcrypt.
           </p>
           <div>
             <ul className="flex flex-wrap mt-2 mb-3 space-x-2">
@@ -51,12 +51,12 @@ export default function Projects() {
           />
         </li>
         <li>
-          <h2>Cabin Management Portal</h2>
+          <h2 className="mb-3">Cabin Management Portal</h2>
           <p className="text-slate-400">
             Developed a full-stack cabin management application with user
-            authentication, data visualization, and dark mode features. Utilised
-            React, styled-components, React Query, and Supabase for creating and
-            integrating necessary functionalities.
+            authentication, data visualization, and dark mode features. <br />{" "}
+            Utilised React, styled-components, React Query, and Supabase for
+            creating and integrating necessary functionalities.
           </p>
           <div>
             <ul className="flex flex-wrap mt-2 mb-3 space-x-2">
@@ -91,12 +91,13 @@ export default function Projects() {
           />
         </li>
         <li>
-          <h2>Event Finding Web App</h2>
+          <h2 className="mb-3">Event Finding Web App</h2>
           <p className="text-slate-400">
             Created a responsive platform for finding local events using
             TypeScript, Next.js, Prisma, and Tailwind CSS. Ensured a modern,
+            <br />
             efficient user experience with visually appealing interfaces across
-            all devices. Optimised loading time with Next.js server side
+            all devices. Optimised loading time with Next.js server side <br />
             rendering and caching features.
           </p>
           <div>
@@ -137,13 +138,13 @@ export default function Projects() {
           />
         </li>
         <li>
-          <h2>Remote Job Board</h2>
+          <h2 className="mb-3">Remote Job Board</h2>
           <p className="text-slate-400">
             Designed an application for developers to search, sort, and bookmark
-            job listings with TypeScript, React, and Context API. Efficiently
-            managed state and data, ensuring cached and persistent information
-            between renders. Implemented a user-friendly bookmarking system,
-            enhancing job management features.
+            job listings with TypeScript, React, and Context API. <br />{" "}
+            Efficiently managed state and data, ensuring cached and persistent
+            information between renders. Implemented a user-friendly <br />{" "}
+            bookmarking system, enhancing job management features.
           </p>
           <div>
             <ul className="flex flex-wrap mt-2 mb-3 space-x-2">
@@ -183,13 +184,13 @@ export default function Projects() {
           />
         </li>
         <li>
-          <h2>Company Feedback Application</h2>
+          <h2 className="mb-3">Company Feedback Application</h2>
           <p className="text-slate-400">
             Corpo Pulse is built with TypeScript and React, providing a
             responsive and dynamic user interface. It utilizes Zustand for
-            efficient state management, ensuring smooth and predictable
+            efficient <br /> state management, ensuring smooth and predictable
             application behavior. The styling is enhanced with CSS, delivering a
-            pixel-perfect and visually appealing design
+            pixel-perfect <br /> and visually appealing design
           </p>
           <div>
             <ul className="flex flex-wrap mt-2 mb-3 space-x-2">
