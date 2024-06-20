@@ -3,9 +3,9 @@ import ImageComponent from "./image";
 export default function Technologies() {
   return (
     <>
-      <div className="mt-10 mx-3">
-        <h2 className="text-cyan-50 uppercase text-lg mb-10">
-          Tools & Technologies
+      <div className="mt-10 flex flex-col mx-auto">
+        <h2 className="text-teal-50 uppercase text-center font-medium text-lg mb-10">
+          Tools <span className="text-teal-400">&</span> Technologies
         </h2>
         <div className="flex gap-5">
           <ImageComponent
