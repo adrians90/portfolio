@@ -15,7 +15,7 @@ export default function Projects() {
           <li className="md:max-w-md">
             <h2 className="mb-3">Pet Daycare Management Application</h2>
             <Image
-              className="rounded mb-3 hover:scale-110 transform transition duration-300 ease-in-out"
+              className="rounded mb-3 md:hover:scale-110 transform transition duration-300 ease-in-out"
               src="/Pawsome.png"
               alt="Project image"
               width={430}
@@ -27,8 +27,8 @@ export default function Projects() {
               Implemented secure payment processing with Stripe and user
               authentication with Next Auth and bcrypt.
             </p>
-            <div>
-              <ul className="flex flex-wrap mt-3 mb-3 space-x-2">
+            <div className="">
+              <ul className="flex flex-wrap mt-3 mb-3 gap-2">
                 <li className="hover:scale-110 transform transition duration-300 ease-in-out">
                   <div className="rounded-full bg-teal-400/10 flex items-center text-teal-300 px-3 py-1 text-xs font-medium leading-5">
                     Next.js
@@ -63,7 +63,7 @@ export default function Projects() {
           <li className="md:max-w-md">
             <h2 className="mb-3">Event Finding Web App</h2>
             <Image
-              className="rounded mb-3 hover:scale-110 transform transition duration-300 ease-in-out"
+              className="rounded mb-3 md:hover:scale-110 transform transition duration-300 ease-in-out"
               src="/Evento.png"
               alt="Project image"
               width={430}
@@ -75,7 +75,7 @@ export default function Projects() {
               time with Next.js server side rendering and caching features.
             </p>
             <div>
-              <ul className="flex flex-wrap mt-3 mb-3 space-x-2">
+              <ul className="flex flex-wrap mt-3 mb-3 gap-2">
                 <li className="hover:scale-110 transform transition duration-300 ease-in-out">
                   <div className="rounded-full bg-teal-400/10 flex items-center text-teal-300 px-3 py-1 text-xs font-medium leading-5">
                     TypeScript
@@ -109,7 +109,7 @@ export default function Projects() {
           <li className="md:max-w-md">
             <h2 className="mb-3">Cabin Management Portal</h2>
             <Image
-              className="rounded mb-3 hover:scale-110 transform transition duration-300 ease-in-out"
+              className="rounded mb-3 md:hover:scale-110 transform transition duration-300 ease-in-out"
               src="/Wild.png"
               alt="Project image"
               width={430}
@@ -122,7 +122,7 @@ export default function Projects() {
               creating and integrating necessary functionalities.
             </p>
             <div>
-              <ul className="flex flex-wrap mt-3 mb-3 space-x-2">
+              <ul className="flex flex-wrap mt-3 mb-3 gap-2">
                 <li className="hover:scale-110 transform transition duration-300 ease-in-out">
                   <div className="rounded-full bg-teal-400/10 flex items-center text-teal-300 px-3 py-1 text-xs font-medium leading-5">
                     React
@@ -151,7 +151,7 @@ export default function Projects() {
           <li className="md:max-w-md">
             <h2 className="mb-3">Remote Job Board</h2>
             <Image
-              className="rounded mb-3 hover:scale-110 transform transition duration-300 ease-in-out"
+              className="rounded mb-3 md:hover:scale-110 transform transition duration-300 ease-in-out"
               src="/rmtdev.png"
               alt="Project image"
               width={430}
@@ -165,7 +165,7 @@ export default function Projects() {
               bookmarking system, enhancing job management features.
             </p>
             <div>
-              <ul className="flex flex-wrap mt-3 mb-3 space-x-2">
+              <ul className="flex flex-wrap mt-3 mb-3 gap-2">
                 <li className="hover:scale-110 transform transition duration-300 ease-in-out">
                   <div className="rounded-full bg-teal-400/10 flex items-center text-teal-300 px-3 py-1 text-xs font-medium leading-5">
                     TypeScript
@@ -199,7 +199,7 @@ export default function Projects() {
           <li className="md:max-w-md">
             <h2 className="mb-3">Company Feedback Application</h2>
             <Image
-              className="rounded mb-3 hover:scale-110 transform transition duration-300 ease-in-out"
+              className="rounded mb-3 md:hover:scale-110 transform transition duration-300 ease-in-out"
               src="/Corpo.png"
               alt="Project image"
               width={430}
@@ -213,7 +213,7 @@ export default function Projects() {
               a pixel-perfect and visually appealing design.
             </p>
             <div>
-              <ul className="flex flex-wrap mt-3 mb-3 space-x-2">
+              <ul className="flex flex-wrap mt-3 mb-3 gap-2">
                 <li className="hover:scale-110 transform transition duration-300 ease-in-out">
                   <div className="rounded-full bg-teal-400/10 flex items-center text-teal-300 px-3 py-1 text-xs font-medium leading-5">
                     Next.js
@@ -247,7 +247,7 @@ export default function Projects() {
           <li className="md:max-w-md">
             <h2 className="mb-3">Restaurant Ordering Application</h2>
             <Image
-              className="rounded mb-3 hover:scale-110 transform transition duration-300 ease-in-out"
+              className="rounded mb-3 md:hover:scale-110 transform transition duration-300 ease-in-out"
               src="/Pizza.png"
               alt="Project image"
               width={430}
@@ -261,7 +261,7 @@ export default function Projects() {
               responsive and visually appealing interface.
             </p>
             <div>
-              <ul className="flex flex-wrap mt-3 mb-3 space-x-2">
+              <ul className="flex flex-wrap mt-3 mb-3 gap-2">
                 <li className="hover:scale-110 transform transition duration-300 ease-in-out">
                   <div className="rounded-full bg-teal-400/10 flex items-center text-teal-300 px-3 py-1 text-xs font-medium leading-5">
                     React

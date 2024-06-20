@@ -7,7 +7,7 @@ export default function Technologies() {
         <h2 className="text-teal-50 uppercase text-center font-medium text-lg mb-10">
           Tools <span className="text-teal-400">&</span> Technologies
         </h2>
-        <div className="flex gap-5">
+        <div className="flex space-x-3 md:space-x-5">
           <ImageComponent
             className={
               "hover:scale-110 transform transition duration-300 ease-in-out"
