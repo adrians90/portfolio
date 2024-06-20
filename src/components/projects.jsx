@@ -1,12 +1,15 @@
+import { ArrowRightIcon } from "@radix-ui/react-icons";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Projects() {
   return (
     <section className="mx-3 mt-10 max-w-md md:max-w-7xl">
-      <h2 className="text-lg uppercase mb-10 text-center text-teal-50 font-medium">
-        Projects
-      </h2>
+      <Link href="https://github.com/adrians90" target="_blank">
+        <h2 className="text-lg uppercase mb-10 text-center text-teal-50 font-medium">
+          Projects
+        </h2>
+      </Link>
       <ul className="flex flex-col gap-7 justify-center md:grid grid-cols-2">
         <Link href="https://pawsome-pro.vercel.app/" target="_blank">
           <li className="md:max-w-md">
@@ -284,6 +287,15 @@ export default function Projects() {
           </li>
         </Link>
       </ul>
+      <Link
+        href="https://github.com/adrians90?tab=repositories"
+        target="_blank"
+      >
+        <button className="hover:bg-teal-800 py-2 px-5 uppercase rounded-full bg-teal-400/10 text-teal-300 font-medium flex justify-center items-center mb-4 mt-4 w-full">
+          See All
+          <ArrowRightIcon className="inline-block w-4 h-4 ml-2" />
+        </button>
+      </Link>
     </section>
   );
 }
