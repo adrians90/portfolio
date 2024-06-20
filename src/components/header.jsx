@@ -24,8 +24,8 @@ export default function Header() {
         <Image
           src="/github.png"
           alt="github logo"
-          width={30}
-          height={30}
+          width={40}
+          height={40}
           className="rounded-md bg-teal-100"
         />
       </Link>

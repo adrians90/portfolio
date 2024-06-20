@@ -19,8 +19,8 @@ export default function Footer() {
         <Image
           src="/github.png"
           alt="github logo"
-          width={42}
-          height={42}
+          width={40}
+          height={40}
           className="rounded-md bg-teal-100"
         />
       </Link>
