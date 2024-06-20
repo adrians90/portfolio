@@ -36,7 +36,7 @@ export default function Technologies() {
             }
             height={30}
             width={30}
-            alt={"JavaScript Logo"}
+            alt={"TypeScript Logo"}
             src={
               "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg"
             }
@@ -48,7 +48,7 @@ export default function Technologies() {
             }
             height={30}
             width={30}
-            alt={"JavaScript Logo"}
+            alt={"Next.js Logo"}
             src={
               "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg"
             }
@@ -59,7 +59,7 @@ export default function Technologies() {
             }
             height={30}
             width={30}
-            alt={"JavaScript Logo"}
+            alt={"Node.js Logo"}
             src={
               "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"
             }
@@ -70,7 +70,7 @@ export default function Technologies() {
             }
             height={30}
             width={30}
-            alt={"JavaScript Logo"}
+            alt={"Tailwind CSS Logo"}
             src={
               "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
             }
@@ -82,7 +82,7 @@ export default function Technologies() {
             }
             height={30}
             width={30}
-            alt={"JavaScript Logo"}
+            alt={"Prisma Logo"}
             src={
               "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg"
             }
@@ -93,7 +93,7 @@ export default function Technologies() {
             }
             height={30}
             width={30}
-            alt={"JavaScript Logo"}
+            alt={"PostgreSQL Logo"}
             src={
               "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"
             }
