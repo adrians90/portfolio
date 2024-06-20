@@ -9,6 +9,9 @@ export default function Technologies() {
         </h2>
         <div className="flex gap-5">
           <ImageComponent
+            className={
+              "hover:scale-110 transform transition duration-300 ease-in-out"
+            }
             height={30}
             width={30}
             alt={"JavaScript Logo"}
@@ -17,6 +20,9 @@ export default function Technologies() {
             }
           />
           <ImageComponent
+            className={
+              "hover:scale-110 transform transition duration-300 ease-in-out"
+            }
             height={30}
             width={30}
             alt={"JavaScript Logo"}
@@ -25,6 +31,9 @@ export default function Technologies() {
             }
           />
           <ImageComponent
+            className={
+              "hover:scale-110 transform transition duration-300 ease-in-out"
+            }
             height={30}
             width={30}
             alt={"JavaScript Logo"}
@@ -34,6 +43,9 @@ export default function Technologies() {
           />
 
           <ImageComponent
+            className={
+              "hover:scale-110 transform transition duration-300 ease-in-out"
+            }
             height={30}
             width={30}
             alt={"JavaScript Logo"}
@@ -42,6 +54,9 @@ export default function Technologies() {
             }
           />
           <ImageComponent
+            className={
+              "hover:scale-110 transform transition duration-300 ease-in-out"
+            }
             height={30}
             width={30}
             alt={"JavaScript Logo"}
@@ -50,6 +65,9 @@ export default function Technologies() {
             }
           />
           <ImageComponent
+            className={
+              "hover:scale-110 transform transition duration-300 ease-in-out"
+            }
             height={30}
             width={30}
             alt={"JavaScript Logo"}
@@ -59,6 +77,9 @@ export default function Technologies() {
           />
 
           <ImageComponent
+            className={
+              "hover:scale-110 transform transition duration-300 ease-in-out"
+            }
             height={30}
             width={30}
             alt={"JavaScript Logo"}
@@ -67,6 +88,9 @@ export default function Technologies() {
             }
           />
           <ImageComponent
+            className={
+              "hover:scale-110 transform transition duration-300 ease-in-out"
+            }
             height={30}
             width={30}
             alt={"JavaScript Logo"}

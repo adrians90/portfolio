@@ -24,12 +24,12 @@ export default function Footer() {
           className="rounded-md bg-teal-100"
         />
       </Link>
-      <Link
+      <a
         href="mailto:adriansandu9090@gmail.com"
         className="opacity-90 hover:opacity-100 transition duration-300 ease-in-out"
       >
         <Image src="/email.png" alt="email logo" width={42} height={42} />
-      </Link>
+      </a>
     </footer>
   );
 }

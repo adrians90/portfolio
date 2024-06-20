@@ -1,5 +1,6 @@
 import Link from "next/link";
 import H1 from "./h1";
+import Image from "next/image";
 
 export default function Header() {
   return (
@@ -14,11 +15,19 @@ export default function Header() {
           <span className="text-teal-400">Frontend</span> Developer
         </p>
       </Link>
+
       <Link
-        href="/cv"
-        className="relative text-teal-400 font-medium text-xl opacity-90 hover:opacity-1000"
+        href="https://github.com/adrians90"
+        target="_blank"
+        className="opacity-90 hover:opacity-100 transition duration-300 ease-in-out"
       >
-        CV
+        <Image
+          src="/github.png"
+          alt="github logo"
+          width={30}
+          height={30}
+          className="rounded-md bg-teal-100"
+        />
       </Link>
     </nav>
   );
