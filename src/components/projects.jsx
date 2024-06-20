@@ -152,7 +152,7 @@ export default function Projects() {
             <h2 className="mb-3">Remote Job Board</h2>
             <Image
               className="rounded mb-3 hover:scale-110 transform transition duration-300 ease-in-out"
-              src="/rmtDev.png"
+              src="/rmtdev.png"
               alt="Project image"
               width={430}
               height={200}
